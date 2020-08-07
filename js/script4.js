@@ -1,5 +1,5 @@
 "use strict";
-// урок 2.16
+// урок 2.17
 //
 const srt = 'test';
 
