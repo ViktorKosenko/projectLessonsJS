@@ -1,4 +1,5 @@
 "use strict";
+// урок 2.14
 
 if (4 == 9) {
     console.log('Ok!');
