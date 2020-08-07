@@ -62,7 +62,7 @@ function showMyDB(hidden) {
 function writeYourGenres() {
     for (let i = 0; i < 3; i++) {
         const a = prompt(`Ваш любимый жанр под номером ${i+1}`, "");
-        if (a != null && a != 0) {
+        if (a != null && a != '') {
             personalMovieDB.genres[i] = a;
         } else {
             i--;
