@@ -58,11 +58,15 @@ class UserClass {
             console.log('Err');
         }
     }
+
+    get surname() {
+        return this.#surname;
+    }
 }
 
 const ivan2 = new UserClass('Ivan', 27);
 
-console.log(ivan2._age);
+console.log(ivan2.surname);
 ivan2._age = 99;
 
 ivan2.say();
